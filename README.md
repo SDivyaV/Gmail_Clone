@@ -3,7 +3,7 @@
 This Gmail clone project is a web application built with React, Redux, and Firebase. 
 It replicates the core functionality of composing and viewing emails in a minimalistic, Gmail-inspired interface. Users can compose emails, view a list of composed messages, and have the messages stored in Firebase as a database.
 
-**FEATURES**
+**Features**
 
 Compose Emails: Users can compose new emails with a rich-text editor, enabling an interactive user experience.
 
