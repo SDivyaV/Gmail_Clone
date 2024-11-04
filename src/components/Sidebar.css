@@ -1,0 +1,27 @@
+.sidebar{
+    flex: 0.3;
+    max-width: 300px;
+    padding-right: 20px;
+}
+
+.sidebar_compose{
+    margin-top: 15px !important;
+    margin-left: 80px !important;
+    margin-bottom: 15px !important;
+    padding: 15px !important;
+    border-radius: 16px !important;
+    background-color: #89CFF0 !important;
+    transition: box-shadow 0.1s ease-out;
+}
+
+.sidebar_compose:active{
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.sidebar_footer{
+    margin-left: 80px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

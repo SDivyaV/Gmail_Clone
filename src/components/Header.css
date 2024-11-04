@@ -1,0 +1,90 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    padding: 10px 20px; 
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+    flex: 0.2; 
+}
+
+.header_left img {
+    object-fit: contain;
+    height: 70px; 
+    margin-left: 8px;
+}
+
+.header_middle {
+    display: flex;
+    flex: 0.6; 
+    align-items: center;
+    background-color: #f1f3f4;
+    padding: 5px 10px;
+    border-radius: 22px;
+    margin-right: 10px;
+}
+
+.header_middle > .MuiSvgIcon-root {
+    color: #5f6368;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.header_middle > input {
+    border: none;
+    width: 100%; 
+    padding: 10px;
+    outline-width: 0;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.gmail-button {
+    background-color: #f1f3f4;
+    color: #202124;
+    border: 1px solid #dadce0;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 22px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.gmail-button > .MuiSvgIcon-root {
+    font-size: 12px; 
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.2; 
+}
+
+.header_right_icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    color: #5f6368;
+    cursor: pointer;
+}
+
+.header_right_icons > .MuiSvgIcon-root {
+    font-size: 22px; 
+}
+
+.header_right .MuiAvatar-root {
+    width: 40px;
+    height: 40px; 
+}
